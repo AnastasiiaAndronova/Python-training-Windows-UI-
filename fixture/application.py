@@ -5,9 +5,7 @@ import os.path
 import sys
 
 project_dir=os.path.dirname(os.path.abspath(__file__))
-sys.path.append(project_dir+ "\\..\\TestStack.White.0.13.3\\lib\\net40\\")
-sys.path.append(project_dir+ "\\..\\Castle.Core.3.3.0\\lib\\net40-client\\")
-sys.path.append("D:\\project\\kus8\\\lib\\")
+sys.path.append(project_dir+ "\\..\\lib\\")
 
 clr.AddReferenceByName("TestStack.White")
 from TestStack.White import  Application
